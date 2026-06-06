@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagarmatha Homes | Premium UPVC Windows & Doors</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .hero-bg {
+      background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .gallery-img {
+      transition: 0.4s ease;
+    }
+
+    .gallery-img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <div>
+        <h1 class="text-2xl font-bold text-blue-900">Sagarmatha Homes</h1>
+        <p class="text-sm text-gray-500">Chitwan, Nepal</p>
+      </div>
+
+      <nav class="hidden md:flex gap-8 font-medium">
+        <a href="#home" class="hover:text-blue-700">Home</a>
+        <a href="#about" class="hover:text-blue-700">About</a>
+        <a href="#products" class="hover:text-blue-700">Products</a>
+        <a href="#gallery" class="hover:text-blue-700">Gallery</a>
+        <a href="#contact" class="hover:text-blue-700">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-bg min-h-screen flex items-center">
+    <div class="max-w-7xl mx-auto px-6 text-white">
+
+      <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+        Premium UPVC Windows & Doors in Nepal
+      </h2>
+
+      <p class="text-xl max-w-2xl mb-8 text-gray-200">
+        Sagarmatha Homes is one of Chitwan’s most trusted UPVC manufacturers,
+        delivering elegant, energy-efficient, and weather-resistant solutions
+        for modern homes and commercial buildings.
+      </p>
+
+      <div class="flex gap-4 flex-wrap">
+        <a href="#products"
+          class="bg-blue-700 hover:bg-blue-800 px-8 py-4 rounded-lg font-semibold transition">
+          Explore Products
+        </a>
+
+        <a href="#contact"
+          class="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold text-blue-900">Why Choose Us?</h2>
+        <p class="text-gray-600 mt-4">
+          Premium quality products built for comfort, efficiency, and durability.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-8">
+
+        <div class="bg-gray-100 p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-3">Energy Efficient</h3>
+          <p>Reduce energy costs with insulated UPVC systems.</p>
+        </div>
+
+        <div class="bg-gray-100 p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-3">Soundproof</h3>
+          <p>Enjoy peaceful interiors with noise-reduction technology.</p>
+        </div>
+
+        <div class="bg-gray-100 p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-3">Weather Resistant</h3>
+          <p>Designed for Nepal’s changing climate conditions.</p>
+        </div>
+
+        <div class="bg-gray-100 p-8 rounded-2xl shadow hover:shadow-xl transition">
+          <h3 class="text-2xl font-bold mb-3">Elegant Design</h3>
+          <p>Modern aesthetics with long-lasting performance.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop"
+          class="rounded-2xl shadow-xl"
+          alt="Factory"
+        />
+      </div>
+
+      <div>
+        <h2 class="text-4xl font-bold text-blue-900 mb-6">
+          About Sagarmatha Homes
+        </h2>
+
+        <p class="text-gray-700 mb-4 leading-relaxed">
+          Located in Chitwan, Nepal, Sagarmatha Homes has built a reputation
+          for delivering world-class UPVC windows and doors with unmatched quality.
+        </p>
+
+        <p class="text-gray-700 mb-4 leading-relaxed">
+          Our advanced manufacturing process, modern machinery, and experienced
+          team ensure precision and customer satisfaction in every project.
+        </p>
+
+        <p class="text-gray-700 leading-relaxed">
+          We proudly serve homeowners, architects, and commercial projects across Nepal.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold text-blue-900">Our Products</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- PRODUCT CARD -->
+        <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=800&auto=format&fit=crop"
+            class="h-60 w-full object-cover"
+            alt="Sliding Window"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">Sliding Windows</h3>
+            <p class="text-gray-600 mb-4">
+              Elegant and space-saving window systems for modern homes.
+            </p>
+            <button class="bg-blue-800 text-white px-5 py-2 rounded-lg hover:bg-blue-900">
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD -->
+        <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=800&auto=format&fit=crop"
+            class="h-60 w-full object-cover"
+            alt="Casement Window"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">Casement Windows</h3>
+            <p class="text-gray-600 mb-4">
+              Strong sealing and superior ventilation performance.
+            </p>
+            <button class="bg-blue-800 text-white px-5 py-2 rounded-lg hover:bg-blue-900">
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD -->
+        <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop"
+            class="h-60 w-full object-cover"
+            alt="UPVC Doors"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">UPVC Doors</h3>
+            <p class="text-gray-600 mb-4">
+              Durable, stylish, and secure doors for every property.
+            </p>
+            <button class="bg-blue-800 text-white px-5 py-2 rounded-lg hover:bg-blue-900">
+              Learn More
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT CARD -->
+        <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=800&auto=format&fit=crop"
+            class="h-60 w-full object-cover"
+            alt="Ventilator Window"
+          />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">Ventilator Windows</h3>
+            <p class="text-gray-600 mb-4">
+              Compact ventilation solutions with sleek appearance.
+            </p>
+            <button class="bg-blue-800 text-white px-5 py-2 rounded-lg hover:bg-blue-900">
+              Learn More
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold text-blue-900">
+          Customer Reviews
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <p class="text-gray-600 mb-4">
+            “Excellent quality and professional installation. Highly recommended.”
+          </p>
+          <h4 class="font-bold">— Homeowner, Chitwan</h4>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <p class="text-gray-600 mb-4">
+            “Modern designs with outstanding durability and finishing.”
+          </p>
+          <h4 class="font-bold">— Architect, Nepal</h4>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <p class="text-gray-600 mb-4">
+            “One of the best UPVC factories in the region.”
+          </p>
+          <h4 class="font-bold">— Commercial Client</h4>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <h2 class="text-4xl font-bold text-blue-900">
+          Factory & Project Gallery
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1000&auto=format&fit=crop"
+          class="gallery-img rounded-2xl shadow-lg">
+
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop"
+          class="gallery-img rounded-2xl shadow-lg">
+
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1000&auto=format&fit=crop"
+          class="gallery-img rounded-2xl shadow-lg">
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+      <!-- CONTACT INFO -->
+      <div>
+        <h2 class="text-4xl font-bold text-blue-900 mb-6">
+          Contact Us
+        </h2>
+
+        <p class="mb-4">
+          <strong>Location:</strong> Chitwan, Nepal
+        </p>
+
+        <p class="mb-4">
+          <strong>Phone:</strong> +977-9800000000
+        </p>
+
+        <p class="mb-4">
+          <strong>Email:</strong> info@sagarmathahomes.com
+        </p>
+
+        <p class="mb-6">
+          <strong>Hours:</strong> Sun - Fri | 9:00 AM - 6:00 PM
+        </p>
+
+        <div class="bg-gray-300 h-72 rounded-2xl flex items-center justify-center">
+          <p class="text-gray-700 font-semibold">
+            Google Maps Placeholder
+          </p>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="bg-white p-8 rounded-2xl shadow-xl">
+
+        <form class="space-y-6">
+
+          <div>
+            <label class="block mb-2 font-semibold">Full Name</label>
+            <input type="text"
+              class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-700">
+          </div>
+
+          <div>
+            <label class="block mb-2 font-semibold">Email</label>
+            <input type="email"
+              class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-700">
+          </div>
+
+          <div>
+            <label class="block mb-2 font-semibold">Message</label>
+            <textarea rows="5"
+              class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-blue-700"></textarea>
+          </div>
+
+          <button
+            class="bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition w-full">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-950 text-white py-8">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <h3 class="text-2xl font-bold mb-2">
+        Sagarmatha Homes
+      </h3>
+
+      <p class="text-gray-300">
+        Premium UPVC Windows & Doors Manufacturer in Chitwan, Nepal
+      </p>
+
+      <p class="mt-4 text-gray-400 text-sm">
+        © 2026 Sagarmatha Homes. All Rights Reserved.
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
